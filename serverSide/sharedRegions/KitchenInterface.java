@@ -79,7 +79,7 @@ public class KitchenInterface
       }*/
 
      /* processing */
-     System.out.println("type" + inMessage.getMsgType ());
+     //System.out.println("type" + inMessage.getMsgType ());
       switch (inMessage.getMsgType ())
 
       { case MessageType.handTheNoteToTheChefREQ:  ((KitchenClientProxy) Thread.currentThread ()).setWaiterId(inMessage.getWaiId());

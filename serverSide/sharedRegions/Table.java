@@ -260,7 +260,7 @@ public class Table
         if(this.exit) return false;  // return false if all students left the restaurant
         if(portions % 7 != 0) this.signalTheWaiter = false;  
         if(portions == SimulPar.P ) this.signalTheWaiter = false;  // if all the students have finished all the portions, they cannot signal the waiter anymore
-        System.out.println("Portions " + portions);
+        //System.out.println("Portions " + portions);
         notifyAll ();     
         
         
@@ -319,7 +319,7 @@ public class Table
         res = 5;
      }
      
-     System.out.println("waiter " + res);
+     //System.out.println("waiter " + res);
      notifyAll ();                
      return res;
   }

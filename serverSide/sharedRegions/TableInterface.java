@@ -80,7 +80,7 @@ public class TableInterface
 
      /* processing */
 
-      System.out.println("type" + inMessage.getMsgType ());
+      //System.out.println("type" + inMessage.getMsgType ());
       switch (inMessage.getMsgType ())
 
       { case MessageType.enterTableREQ:  ((TableClientProxy) Thread.currentThread ()).setStudentId(inMessage.getStuId());

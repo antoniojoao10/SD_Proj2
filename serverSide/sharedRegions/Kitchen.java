@@ -257,7 +257,7 @@ public class Kitchen
       ChefID = ((KitchenClientProxy) Thread.currentThread ()).getChefId();
       repos.setchefState(ChefID, ChefStates.DELIVERINGTHEPORTIONS);
 
-      System.out.println("Chef ready");
+      //System.out.println("Chef ready");
 
       //Sleep while waiting for the waiter to take the order
       while ((this.ready) ){

@@ -79,7 +79,7 @@ public class BarInterface
       }*/
 
      /* processing */
-     System.out.println("type" + inMessage.getMsgType ());
+     //System.out.println("type" + inMessage.getMsgType ());
       switch (inMessage.getMsgType ())
 
       { 
